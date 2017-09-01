@@ -1,0 +1,10 @@
+#spring.application.name=discovery
+#spring.cloud.config.name=discovery
+#spring.cloud.config.uri=http://localhost:8081
+#spring.cloud.config.discovery.enabled=true
+
+
+spring:
+  cloud:
+    config:
+      enabled: false #disable the checking of configuration server
